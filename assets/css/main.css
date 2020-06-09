@@ -389,7 +389,7 @@ input, select, textarea {
 		}
 
 			#main .item.span-1 {
-				width: 20em;
+				width: 30em;
 			}
 
 			#main .item.span-2 {
@@ -402,7 +402,7 @@ input, select, textarea {
 
 			#main .item.intro {
 				background-color: #d64760;
-				background-image: url("images/overlay.png");
+				background-image: url("/../images/kent-4-40.jpg");
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;

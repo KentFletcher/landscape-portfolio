@@ -390,22 +390,22 @@ input, select, textarea {
 
 			#main .item.intro.span-2 {
 				width: 30em;
-				height: 50em;
+				height: 48em;
 			}
 
 			#main .item.span-1 {
 				width: 60em;
-				height: 50em;
+				height: 48em;
 			}
 
 			#main .item.span-2 {
 				width: 60em;
-				height: 50em;
+				height: 48em;
 			}
 
 			#main .item.span-3 {
 				width: 40em;
-				height: 50em;
+				height: 48em;
 			}
 
 			#main .item.intro {
@@ -546,7 +546,7 @@ input, select, textarea {
 				}
 
 				#main .item.span-2 {
-					width: 25.5em;
+					width: 57em;
 				}
 
 				#main .item.span-3 {
@@ -588,7 +588,7 @@ input, select, textarea {
 					-webkit-flex-shrink: 1;
 					-ms-flex-shrink: 1;
 					flex-shrink: 1;
-					width: calc(50vw - 15px) !important;
+					width: 	 calc(100vw - 20px) !important;
 					margin: 2.5px;
 					box-shadow: 0 0 0 5px #ffffff;
 				}
@@ -618,6 +618,7 @@ input, select, textarea {
 
 			#main .item {
 				height: 10em;
+
 			}
 
 		}

@@ -388,21 +388,29 @@ input, select, textarea {
 			box-shadow: 0 0 0 10px #ffffff;
 		}
 
+			#main .item.intro.span-2 {
+				width: 30em;
+				height: 48em;
+			}
+
 			#main .item.span-1 {
-				width: 20em;
+				width: 60em;
+				height: 48em;
 			}
 
 			#main .item.span-2 {
-				width: 30em;
+				width: 60em;
+				height: 48em;
 			}
 
 			#main .item.span-3 {
 				width: 40em;
+				height: 48em;
 			}
 
 			#main .item.intro {
 				background-color: #d64760;
-				background-image: url("images/overlay.png");
+				background-image: url("/../images/kent-4-40-copy.jpg");
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -414,17 +422,19 @@ input, select, textarea {
 				-moz-justify-content: center;
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
-				justify-content: center;
-				padding: 1em 3em;
+				justify-content: left;
+				color: cadetblue;
+				padding: 10em 3em;
 			}
 
 				#main .item.intro h1 {
 					font-size: 3em;
 					line-height: 1em;
+					color: cadetblue;
 				}
 
 				#main .item.intro p {
-					font-size: 1.25em;
+					font-size: 1.5em;
 					line-height: 1.5em;
 					margin: 0.5em 0 0 0;
 					opacity: 0.65;
@@ -525,18 +535,18 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1880px) {
 
 			#main .item {
-				height: 14em;
+				height: 50em;
 			}
 
 				#main .item.span-1 {
-					width: 17em;
+					width: 37em;
 				}
 
 				#main .item.span-2 {
-					width: 25.5em;
+					width: 57em;
 				}
 
 				#main .item.span-3 {
@@ -578,7 +588,7 @@ input, select, textarea {
 					-webkit-flex-shrink: 1;
 					-ms-flex-shrink: 1;
 					flex-shrink: 1;
-					width: calc(50vw - 15px) !important;
+					width: 	 calc(100vw - 20px) !important;
 					margin: 2.5px;
 					box-shadow: 0 0 0 5px #ffffff;
 				}
@@ -608,6 +618,7 @@ input, select, textarea {
 
 			#main .item {
 				height: 10em;
+
 			}
 
 		}

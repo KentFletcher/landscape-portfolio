@@ -410,7 +410,7 @@ input, select, textarea {
 
 			#main .item.intro {
 				background-color: #d64760;
-				background-image: url("/../images/kent-4-40-copy.jpg");
+				background-image: url("/assets/css/images/kent-4-40-copy.jpg");
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
